@@ -1,0 +1,18 @@
+f=open((1.txt","r")
+text=f.read()
+a=b=c=d=0
+for char in text:
+  if char=="\t":
+    a+=1
+  elif char=="\n":
+    b+=1
+  elif char==" ":
+    c+=1
+  elif char==".":
+    d+=1
+
+print("No. of tabs are:",a)
+print("No. of lines are:",b)
+print("No. of space are:",c)
+print("No. of full stop are:",d)
+f.close()
