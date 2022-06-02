@@ -1,0 +1,15 @@
+import numpy as np
+r1=int(input("Enter no. of rows:"))
+c1=int(input("Enter no. of cols:"))
+print("Enter the values in a  single line:)
+entries1=list(map(int,input().split()))
+m1=np.array(entries1).reshape(r1,c1)
+
+r2=int(input("Enter no. of rows:"))
+c2=int(input("Enter no. of cols:"))
+print("Enter the values in a  single line:)
+entries2=list(map(int,input().split()))
+m2=np.array(entries2).reshape(r2,c2)
+
+c=m1+m2
+print(c)
