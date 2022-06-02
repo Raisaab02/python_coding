@@ -1,0 +1,7 @@
+def max(a,b,c):
+  z=max(a,b,c)
+  print(z)
+a=int(input())
+b=int(input())
+c=int(input())
+print(max(a,b,c))
