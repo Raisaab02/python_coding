@@ -1,0 +1,4 @@
+def square(x):
+  x=int(inupt())
+  return n*n
+print(x)
