@@ -1,0 +1,9 @@
+a={"first":"one","second":"two","three":"three"}
+
+b={}
+for i in a.keys():
+    c=i.upper()
+    d=a[i]
+    for j in range(len(a)):
+        b.update({c:d})
+print(b)
