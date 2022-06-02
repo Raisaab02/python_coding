@@ -1,0 +1,10 @@
+def palindrome(str):
+  x=0
+  y=len(str)-1
+  while y>=x:
+    if not str[x]==str[y]:
+      return False
+    x=+1
+    y-=1
+    return True
+print(palindrome('aba'))
